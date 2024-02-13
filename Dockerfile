@@ -1,4 +1,4 @@
-FROM docker.io/library/php:8-apache
+FROM docker.io/library/php:8-apache@sha256:cf1add0aff5324c4c08df8dd4b56f8933b84733e8c0716d2f7e6e6dfc14bca39
 WORKDIR /var/www/html
 
 # https://www.php.net/manual/en/image.installation.php
